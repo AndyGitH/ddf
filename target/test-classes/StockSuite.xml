@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stock Suite">
+
+<test name="Stock Add Test">
+    <classes>
+        <class name="com.qtpselenium.framework.datadriven.stocksuite.AddStock" ></class>  
+    </classes>
+</test>
+
+<test name="Trends Test">
+    <classes>
+        <class name="com.qtpselenium.framework.datadriven.stocksuite.Trends" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

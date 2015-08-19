@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Stock Suite" duration-ms="346694" started-at="2015-08-12T19:27:46Z" finished-at="2015-08-12T19:33:33Z">
+    <groups>
+    </groups>
+    <test name="Stock Add Test" duration-ms="346361" started-at="2015-08-12T19:27:46Z" finished-at="2015-08-12T19:33:33Z">
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.AddStock">
+        <test-method status="PASS" signature="addStock(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@595bcd]" name="addStock" duration-ms="342897" started-at="2015-08-12T20:27:47Z" data-provider="StocksuiteDataProvider" finished-at="2015-08-12T20:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStock -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@595bcd]" name="close" is-config="true" duration-ms="2165" started-at="2015-08-12T20:33:30Z" finished-at="2015-08-12T20:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="addStock(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@595bcd]" name="addStock" duration-ms="67" started-at="2015-08-12T20:33:33Z" data-provider="StocksuiteDataProvider" finished-at="2015-08-12T20:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test addStock inside the suite StockSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test addStock inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.AddStock.addStock(AddStock.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStock -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@595bcd]" name="close" is-config="true" duration-ms="0" started-at="2015-08-12T20:33:33Z" finished-at="2015-08-12T20:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="addStock(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@595bcd]" name="addStock" duration-ms="61" started-at="2015-08-12T20:33:33Z" data-provider="StocksuiteDataProvider" finished-at="2015-08-12T20:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test addStock inside the suite StockSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test addStock inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.AddStock.addStock(AddStock.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStock -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@595bcd]" name="close" is-config="true" duration-ms="1" started-at="2015-08-12T20:33:33Z" finished-at="2015-08-12T20:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.AddStock -->
+    </test> <!-- Stock Add Test -->
+    <test name="Trends Test" duration-ms="150" started-at="2015-08-12T19:33:33Z" finished-at="2015-08-12T19:33:33Z">
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.Trends">
+        <test-method status="SKIP" signature="trends(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.Trends@67211b]" name="trends" duration-ms="38" started-at="2015-08-12T20:33:33Z" data-provider="StocksuiteDataProvider" finished-at="2015-08-12T20:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test trends inside the suite StockSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test trends inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.Trends.trends(Trends.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trends -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.Trends@67211b]" name="close" is-config="true" duration-ms="0" started-at="2015-08-12T20:33:33Z" finished-at="2015-08-12T20:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="trends(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.Trends@67211b]" name="trends" duration-ms="38" started-at="2015-08-12T20:33:33Z" data-provider="StocksuiteDataProvider" finished-at="2015-08-12T20:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test trends inside the suite StockSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test trends inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.Trends.trends(Trends.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trends -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.Trends@67211b]" name="close" is-config="true" duration-ms="0" started-at="2015-08-12T20:33:33Z" finished-at="2015-08-12T20:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="trends(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.Trends@67211b]" name="trends" duration-ms="33" started-at="2015-08-12T20:33:33Z" data-provider="StocksuiteDataProvider" finished-at="2015-08-12T20:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test trends inside the suite StockSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test trends inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.Trends.trends(Trends.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trends -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.Trends@67211b]" name="close" is-config="true" duration-ms="0" started-at="2015-08-12T20:33:33Z" finished-at="2015-08-12T20:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.Trends -->
+    </test> <!-- Trends Test -->
+  </suite> <!-- Stock Suite -->
+  <suite name="My Project" duration-ms="0" started-at="2015-08-12T19:33:33Z" finished-at="2015-08-12T19:33:33Z">
+    <groups>
+    </groups>
+  </suite> <!-- My Project -->
+</testng-results>

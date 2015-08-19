@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock Suite]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Stock Add Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.AddStock">
+        <methods>
+          <include name="addStock" invocation-numbers="1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.AddStock -->
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.Trends">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.Trends -->
+    </classes>
+  </test> <!-- Stock Add Test(failed) -->
+  <test name="Trends Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.AddStock">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.AddStock -->
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.Trends">
+        <methods>
+          <include name="trends" invocation-numbers="0 1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.Trends -->
+    </classes>
+  </test> <!-- Trends Test(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->

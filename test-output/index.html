@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Stock_Suite">
+              <span class="suite-name border-skipped">Stock Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Stock_Suite">
+                    <span>C:\Users\asagoe\workspace\Core_WebDriver_DataDriven_Framework\src\test\resources\StockSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Stock_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Stock_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Stock_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Stock_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Stock_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Stock_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  5 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Stock_Suite" class="hide-methods skipped suite-Stock_Suite"> (hide)</a> <!-- hide-methods skipped suite-Stock_Suite -->
+                      <a href="#" panel-name="suite-Stock_Suite" class="show-methods skipped suite-Stock_Suite"> (show)</a> <!-- show-methods skipped suite-Stock_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Stock_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="com.qtpselenium.framework.datadriven.stocksuite.AddStock" hash-for-method="addStock({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=})">addStock({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="com.qtpselenium.framework.datadriven.stocksuite.AddStock" hash-for-method="addStock({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=})">addStock({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="com.qtpselenium.framework.datadriven.stocksuite.Trends" hash-for-method="trends({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=})">trends({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="com.qtpselenium.framework.datadriven.stocksuite.Trends" hash-for-method="trends({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=})">trends({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="com.qtpselenium.framework.datadriven.stocksuite.Trends" hash-for-method="trends({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=})">trends({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Stock_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Stock_Suite" class="hide-methods passed suite-Stock_Suite"> (hide)</a> <!-- hide-methods passed suite-Stock_Suite -->
+                      <a href="#" panel-name="suite-Stock_Suite" class="show-methods passed suite-Stock_Suite"> (show)</a> <!-- show-methods passed suite-Stock_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Stock_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Stock_Suite" title="com.qtpselenium.framework.datadriven.stocksuite.AddStock" hash-for-method="addStock({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, ...)">addStock({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Stock_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Stock_Suite" class="panel Stock_Suite">
+          <div class="suite-Stock_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.stocksuite.AddStock</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStock({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=})">
+                  </a> <!-- addStock({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=}) -->
+                  <span class="method-name">addStock</span>
+                  <span class="parameters">({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test addStock inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.AddStock.addStock(AddStock.java:26)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStock({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=})">
+                  </a> <!-- addStock({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=}) -->
+                  <span class="method-name">addStock</span>
+                  <span class="parameters">({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test addStock inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.AddStock.addStock(AddStock.java:26)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-skipped -->
+          <div class="suite-Stock_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.stocksuite.Trends</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="trends({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=})">
+                  </a> <!-- trends({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=}) -->
+                  <span class="method-name">trends</span>
+                  <span class="parameters">({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test trends inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.Trends.trends(Trends.java:19)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trends({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=})">
+                  </a> <!-- trends({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=}) -->
+                  <span class="method-name">trends</span>
+                  <span class="parameters">({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test trends inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.Trends.trends(Trends.java:19)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trends({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=})">
+                  </a> <!-- trends({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=}) -->
+                  <span class="method-name">trends</span>
+                  <span class="parameters">({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test trends inside the suite StockSuite
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:62)
+	at com.qtpselenium.framework.datadriven.stocksuite.Trends.trends(Trends.java:19)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-skipped -->
+          <div class="suite-Stock_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.stocksuite.AddStock</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStock({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, ...)">
+                  </a> <!-- addStock({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, ...) -->
+                  <span class="method-name">addStock</span>
+                  <span class="parameters">({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, Result=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Stock_Suite-class-passed -->
+        </div> <!-- panel Stock_Suite -->
+        <div panel-name="suite-My_Project" class="panel My_Project">
+        </div> <!-- panel My_Project -->
+        <div panel-name="test-xml-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\asagoe\workspace\Core_WebDriver_DataDriven_Framework\src\test\resources\StockSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Stock Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qtpselenium.framework.datadriven.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Stock Add Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.datadriven.stocksuite.AddStock&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Stock Add Test --&gt;
+  &lt;test name=&quot;Trends Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.datadriven.stocksuite.Trends&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Trends Test --&gt;
+&lt;/suite&gt; &lt;!-- Stock Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\asagoe\workspace\Core_WebDriver_DataDriven_Framework\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My Project&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qtpselenium.framework.datadriven.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./StockSuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Stock Add Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Trends Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Stock_Suite');
+function tableData_Stock_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addStock')
+data.setCell(0, 2, 'com.qtpselenium.framework.datadriven.stocksuite.AddStock')
+data.setCell(0, 3, 342897);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addStock')
+data.setCell(1, 2, 'com.qtpselenium.framework.datadriven.stocksuite.AddStock')
+data.setCell(1, 3, 67);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addStock')
+data.setCell(2, 2, 'com.qtpselenium.framework.datadriven.stocksuite.AddStock')
+data.setCell(2, 3, 61);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'trends')
+data.setCell(3, 2, 'com.qtpselenium.framework.datadriven.stocksuite.Trends')
+data.setCell(3, 3, 38);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'trends')
+data.setCell(4, 2, 'com.qtpselenium.framework.datadriven.stocksuite.Trends')
+data.setCell(4, 3, 38);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'trends')
+data.setCell(5, 2, 'com.qtpselenium.framework.datadriven.stocksuite.Trends')
+data.setCell(5, 3, 33);
+window.suiteTableData['Stock_Suite']= { tableData: data, tableDiv: 'times-div-Stock_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Stock_Suite">
+              </div> <!-- times-div-Stock_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Project');
+function tableData_My_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_Project']= { tableData: data, tableDiv: 'times-div-My_Project'}
+return data;
+}
+              </script>
+              <div id="times-div-My_Project">
+              </div> <!-- times-div-My_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Stock Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Stock_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.stocksuite.AddStock</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addStock({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, ...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">343036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addStock({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=})</span>
+                <span class="method-start">345201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addStock({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=})</span>
+                <span class="method-start">345269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345331 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.stocksuite.Trends</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">trends({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=})</span>
+                <span class="method-start">345554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">trends({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=})</span>
+                <span class="method-start">345593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">trends({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=})</span>
+                <span class="method-start">345632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345666 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.stocksuite.AddStock</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addStock({Price=100, Runmode=Y, Stock Name=HSIL Ltd., Quantity=10, PurchaseDate=08/04/2015, Browser=Mozilla, ...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">343036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addStock({Price=, Runmode=N, Stock Name=C23, Quantity=, PurchaseDate=C34, Browser=C21, Result=})</span>
+                <span class="method-start">345201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addStock({Price=, Runmode=N, Stock Name=C24, Quantity=, PurchaseDate=C35, Browser=C31, Result=})</span>
+                <span class="method-start">345269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345331 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.stocksuite.Trends</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">trends({Amount=10, Currency2=British Pound, Runmode=Y, Currency1=US Dollar, Browser=Mozilla, Result=})</span>
+                <span class="method-start">345554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">trends({Amount=C23, Currency2=C45, Runmode=N, Currency1=C34, Browser=C21, Result=})</span>
+                <span class="method-start">345593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">trends({Amount=C24, Currency2=C46, Runmode=N, Currency1=C35, Browser=C31, Result=})</span>
+                <span class="method-start">345632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">345666 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
